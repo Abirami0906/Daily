@@ -7,7 +7,7 @@ public class Main {
       if (checkPrime(i)) {
         if (checkPrime(number - i)) {
 
-          // n = primeNumber1 + primeNumber2
+
           System.out.printf("%d = %d + %d\n", number, i, number - i);
           flag = true;
         }
